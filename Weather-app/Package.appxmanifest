@@ -7,14 +7,14 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="127de83d-39eb-4fa5-ac90-1801d4f5b50b"
+    Name="cb852005-deaa-4cc4-8027-46cddef88c17"
     Publisher="CN=nguye"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="127de83d-39eb-4fa5-ac90-1801d4f5b50b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="cb852005-deaa-4cc4-8027-46cddef88c17" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>UWP-013</DisplayName>
+    <DisplayName>Weather-app</DisplayName>
     <PublisherDisplayName>nguye</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="UWP_013.App">
+      EntryPoint="Weather_app.App">
       <uap:VisualElements
-        DisplayName="UWP-013"
+        DisplayName="Weather-app"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="UWP-013"
+        Description="Weather-app"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
